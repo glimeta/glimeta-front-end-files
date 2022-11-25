@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Cars</title>
+        <link rel="stylesheet" href="test3.css">
+    </head>
+    <body>
+        <h1>My Cars</h1>
+        <table>
+            <tr>
+                <th>Brand</th>
+                <th>Model</th>
+                <th>Year</th>
+            </tr>
+            <tr>
+                <td><input type="text" id="brand" value="" placeholder="Brand"></td>
+                <td><input type="text" id="model" value="" placeholder="Model"></td>
+                <td><input type="text" id="year"  value="" placeholder="Year"></td>
+                <td><button onclick="addCar(brand, model, year)">Add</button></td>
+            </tr>
+            
+        </table>
+        <table id="carTable">
+
+        </table>
+
+        <script src="test3.js"></script>
+    </body>
+</html>
